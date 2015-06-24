@@ -1,10 +1,5 @@
 
-.mockup-overlay {
-       top: 0;
-       position: absolute;
-       z-index: -1;
-       opacity: 0.4;
-    }
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -27,32 +22,33 @@
 .row {
     width: 100%;
     margin-bottom: 20px;
-    display: flex; flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
-.col-1 {
+.col-1R {
     width: 8.33%;
+    text-align: right;
 }
 
-.col-2 {
+.col-2R {
     width: 16.66%;
+    text-align: right;
 }
 
-.col-3 {
+.col-3R {
     width: 25%;
+    text-align: right;
 }
 
-.col-4 {
+.col-4R {
     width: 33.33%;
+    text-align: right;
 }
 
-.col-5 {
+.col-5R {
     width: 41.66%;
-}
-
-.col-6L {
-    width: 50%;
-    text-align: left;
+    text-align: right;
 }
 
 .col-6R {
@@ -60,28 +56,94 @@
     text-align: right;
 }
 
-.col-7 {
+.col-7R {
     width: 58.33%;
+    text-align: right;
 }
 
-.col-8 {
+.col-8R {
     width: 66.66%;
+    text-align: right;
 }
 
-.col-9 {
+.col-9R {
     width: 75%;
+    text-align: right;
 }
 
-.col-10 {
+.col-10R {
     width: 83.33%;
+    text-align: right;
 }
 
-.col-11 {
+.col-11R {
     width: 91.66%;
+    text-align: right;
 }
 
-.col-12 {
+.col-12R {
     width: 100%;
+    text-align: right;
+}
+
+.col-1L {
+    width: 8.33%;
+    text-align: left;
+}
+
+.col-2L {
+    width: 16.66%;
+    text-align: left;
+}
+
+.col-3L {
+    width: 25%;
+    text-align: left;
+}
+
+.col-4L {
+    width: 33.33%;
+    text-align: left;
+}
+
+.col-5L {
+    width: 41.66%;
+    text-align: left;
+}
+
+.col-6L {
+    width: 50%;
+    text-align: left;
+}
+
+.col-7L {
+    width: 58.33%;
+    text-align: left;
+}
+
+.col-8L{
+    width: 66.66%;
+    text-align: left;
+}
+
+.col-9L {
+    width: 75%;
+    text-align: left;
+}
+
+.col-10L {
+    width: 83.33%;
+    text-align: left;
+}
+
+.col-11L {
+    width: 91.66%;
+    text-align: left;
+}
+
+.col-12L {
+    width: 100%;
+    text-align: left;
 }
 
 .pic {
@@ -92,13 +154,12 @@
     margin: 10px;
     padding: 10px;
     border: 2px;
-    border-color: #CCC;
+    border-color: #ccc;
     outline: 1px solid black !important;
 }
 
-
 h1 {
-    color: #666;   
+    color: #666;
     font-family: Verdana, sans-serif;
     font-size: 45px;
     margin-bottom: 25px;
@@ -107,7 +168,7 @@ h1 {
 }
 
 h2 {
-    color: #F07C17;
+    color: #f07c17;
     font-family: Verdana, sans-serif;
     font-weight: normal;
     font-size: 24px;
@@ -136,3 +197,8 @@ p {
     height: 200px;
 }
 
+.css_logo {
+    border:0px;
+    width:88px;
+    height:31px;
+}
