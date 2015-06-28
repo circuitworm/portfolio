@@ -50,7 +50,7 @@ p {
 
 .subtitle {
     color: #f07c17;
-    font-family: 24px Verdana, sans-serif;
+    font: 24px Verdana, sans-serif;
     text-align: right;
 }
 
